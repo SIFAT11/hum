@@ -1,0 +1,350 @@
+
+/*
+Global CSS SECTION
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+a,a:hover{
+	text-decoration: none;
+}
+.container{
+width: 1140px;
+margin: 0 auto;
+}
+/*
+
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+*/
+/*1 st code frame*/
+
+header{
+	width: 100%;
+	background-image: url(../pic/gt.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.nav{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0;
+}
+
+.contact{
+	text-align: right;
+	margin-bottom: 10px;
+}
+.contact img{
+	 vertical-align: middle;
+}
+.manu-item ul li{
+	list-style: none;
+	display: inline-block;
+}
+.manu-item ul li a{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0px 1px 10px 32px;
+    color: #3d2514;
+}
+.font-text{
+	height: 80vh;
+	display: table-cell;
+	vertical-align: middle;
+}
+.font-text p{
+    font-family: 'Bebas Neue', cursive;
+    color: #3d2514;
+    border: 1px dashed black;
+    padding: 5px;
+    font-size: 24px;
+}
+
+.font-text h1{
+font-family: 'Alfa Slab One', cursive;
+font-weight: bold;
+color: #3d2514;
+font-size: 84px;
+letter-spacing: 4px;
+text-shadow:1px 1px white;
+}
+
+.font-text h4{
+font-family: 'Alfa Slab One', cursive;
+font-weight: bold;
+color: #3d2514;
+font-size: 41px;
+letter-spacing: 4px;
+text-shadow:1px 1px white;
+}
+
+/*2 nd code start
+barger iteam*/
+
+.header1{
+	width: 100%;
+	padding: 60px 0;
+}
+.nav1{
+	display:flex;
+}
+ 
+.left{
+	text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    position: relative;
+	margin: -9px 0px 0px -52px;
+	}
+	
+.right{
+	text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    position: relative;
+	margin: 0px 36px;
+}
+.right img{
+	 margin:4 px;
+}
+.text{
+	 position: absolute;
+     top: 32px;
+     left: 32px;
+    letter-spacing: 2px;
+}
+.text h5{
+color: white;
+font-weight: 400;
+font-size: 22px;
+text-transform: uppercase;
+}
+
+.text h2{
+text-transform: uppercase;
+color: white;
+font-weight: bold;
+font-size: 42px;
+}
+ 
+ .top{
+position: relative;
+padding: 0px 0px 14px;
+ }
+
+ .top h2{
+ 	width: 60%;
+ }
+ .buttom{
+ position: relative;
+ }
+
+/*creat a button*/
+
+	.batt button{
+	 font-family: 'Bebas Neue', cursive;
+    background-color: #f39e3c;
+    color: #3d2514;
+    padding: 14px;
+    border: none;
+    margin: 27px -5px -73px -72px;
+	}
+
+	/*new glarry for burgew=r*/
+
+.hol{
+	font-family: 'Alfa Slab One', cursive;
+	text-align: center;
+	width: 70%;
+	margin: 0px auto;
+	line-height: 25px;
+}
+
+.hol h1{
+	text-transform: uppercase;
+	color:  #3d2514;
+	line-height: 60px;
+}
+
+.hol p{
+	font-family: 'Montserrat', sans-serif;
+	color:  #3d2514;
+}
+
+
+/* burger itm css*/
+.body{
+	width: 100%;
+	padding: 60px 0px;
+}
+
+.art{
+display: flex;
+justify-content: space-around;
+}
+
+.art img{
+	max-width: 100%;
+}
+.item4 h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 36px;
+    line-height: 60px;
+    font-weight: 500;
+}
+.item4 p{
+	 font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 17px;
+    width: 86%;
+    margin: 12px 10px 13px 0px;
+    padding: 0px 28px;
+}
+.art{
+	text-align: center;
+}
+
+.but{
+	padding: 8px 36px;
+    margin: 1px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+/*border 
+
+    css*/
+.line{
+	 width: 94%;
+    padding: 41px 0;
+    margin: 38px;
+}
+.teme{
+     padding: 34px;
+
+}
+
+.tem h5{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 26px;
+}
+
+.tem h2{
+font-family: 'Alfa Slab One', cursive;
+font-size: 46px;
+}
+.tem p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 23px;
+}
+.it{
+	padding: 0px;
+	display: flex;
+    padding: 17px;
+    background-color: #f3efef;
+    box-shadow: 10px 10px 16px 0px rgb(0 0 0 / 30%);
+}
+ 
+ /*barger details*/
+ .section{
+	width: 100%;
+	padding: 60px 0;
+ }
+
+ .l4 img{
+ 	max-width: : 100%;
+ 	padding: 0px 40px;
+ }
+
+ .tex{
+  text-align: center;
+  margin: -737px;
+}
+ }
+ .tex h5{
+font-family: 'Bebas Neue', cursive;
+ font-weight: bold;
+    text-transform: uppercase;
+ }
+ .tex h1{
+font-family: 'Alfa Slab One', cursive;
+ font-weight: bold;
+    text-transform: uppercase;
+ }
+
+ /*table made*/
+ 
+ /*bal*/
+.ma{
+    text-align: center;
+    padding: 313px 0;
+	}
+.fom{
+color: black;
+width: 80%;
+margin:auto;
+}
+
+.form1 input{
+	padding:10px 34px;
+	color:white;
+	margin:7px;
+}
+.form2 input{
+	padding:10px 36px;
+	color:white;
+	margin:7px;
+}
+.form3 input{
+	 padding:10px 34px;
+	color:white;
+	margin:7px;	 
+}
+.form3{
+	display: flex;
+    padding: 0px 360px;
+    margin: 2px;
+}
+.inner-from3{
+	  background-color: red;
+}
+
+
+/*last section logo icon and img*/
+
+.n1{
+	width: 100%;
+	padding: 60px 0;
+}
+
+.n1{
+    width: 104%;
+    background-image: url(../pic/ma.png);
+    background-size: 87%;
+    background-repeat: no-repeat;
+    height: 97vh;
+    margin: 0px 57px;
+    padding: 0px 25px;
+}
+.ig img{
+	 padding: 70px 9px;
+}
+.ig2{
+color:white;
+width:26%;
+}
+.ig3{
+ padding: 0px 5px;
+    margin: 235px -6px;
+    color: white;n	
+}
+/*end*/
